@@ -6,7 +6,7 @@ const WeatherMain=({weather})=>{
 
   const date=new Date();
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  const publishedDate=`${date.getHours()}:${date.getMinutes()}-${days[date.getDay()]}-${date.getDate()},${date.getMonth()},${date.getFullYear()}`
+  const publishedDate=`${date.getHours()}:${date.getMinutes()}-${days[date.getDay()]}-${date.getDate()},${date.getMonth()+1},${date.getFullYear()}`
 
 
    
